@@ -1,0 +1,86 @@
+.UNO label{
+
+font-size: 25px;
+display: flex;
+justify-content: center;
+
+}
+
+form.UNO{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.personalización{
+
+    display: flex;
+    align-items: center;
+}
+
+input.colordefondo, input.colordeborde{
+
+    width: 50px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.SUB,.SUB2{
+
+    font-size: 30PX;
+}
+.Cargar-Foto #Foto{
+
+    width: 25px;
+    border-radius: 50px;
+   
+}
+#Cargar-Foto { 
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+div.FotoSubida{
+
+    border-radius: 50px;
+}
+
+.HopesFest-Foto{
+
+    border: 2px solid; 
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    filter: drop-shadow(5px 5px 4px white);
+    
+}
+.HopesFest-Foto img{
+    width: 100%;
+    height: auto;
+}
+
+.HopesFest-Foto p {
+
+    text-align: center;
+    margin-top: 10px;
+    font-family: Rancho;
+    font-size: 15px;
+}
+
+input:valid {
+    border-color: green;
+}
+input:invalid {
+    border-color: red;
+}
+textarea:valid {
+    border-color: green;
+}
+textarea:invalid {
+    border-color: red;
+}
